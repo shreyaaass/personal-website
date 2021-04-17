@@ -252,7 +252,7 @@ body {
     transform: translateZ(60px);
   }
   .card1__back img,
-  .card1__back img a,
+  .card1__back a,
   p {
     height: 30px;
     //position: relative;
@@ -264,5 +264,8 @@ body {
   }
   .cards h1 {
     font-size: 4rem;
+  }
+  .card1__back img:hover {
+    transform: scale(1.1);
   }
 }
