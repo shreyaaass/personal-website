@@ -398,6 +398,9 @@ p {
 #cards h1 {
   font-size: 4rem;
 }
+.icons img:hover {
+    box-shadow: rgba(32, 31, 31, 0.37);
+    transform: scale(1.2);
 
 .icons img:hover {
   -webkit-box-shadow: rgba(32, 31, 31, 0.37);
