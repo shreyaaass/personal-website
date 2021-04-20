@@ -412,6 +412,7 @@ p {
 @media (max-width: 702px) {
   body {
     overflow-x: hidden;
+    background-color: dark red;
   }
   .navlinks {
     position: absolute;
