@@ -8,21 +8,23 @@
     <title>Shreyas Singh</title>
 </head>
 <body>
-    <header class="navbar">
+    <nav class="navbar">
         <div class="logo">SHREYAS SINGH</div>
-        <nav class="items">
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">contact me</a></li>
-            </ul>
-        </nav>
-        <a href="#"><button>contact me</button></a>
-    </header>
-    <section class="landing">
+            <ul class="navlinks">
+                <li><a href="#landing">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#cards">contact me</a></li>
+            </ul>    
+        <div class="burger">
+            <div class=" line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+    </nav>
+    <section id="landing">
         <h1 class="title">Shreyas Singh</h1>        
     </section>
-    <section class="about">
+    <section id="about">
         <div class="about-title"><h1>About Me</h1></div>
             <div class="about-grid-container">   
             <div class="about-image"></div>
@@ -72,7 +74,7 @@
         </a>
         
     </section>
-    <section class="cards">
+    <section id="cards">
         <h1>Get in Touch</h1>
        <div class="card01"> 
         <div class="card1__content">
@@ -92,10 +94,7 @@
                 </div>
             </div>
         </div>
-
-
-
     </section>
-
+<script src="app.js"></script>
 </body>
 </html>
